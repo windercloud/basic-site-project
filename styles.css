@@ -133,3 +133,50 @@ a{
     font-weight: 500;
     padding-right: 25px;
 }
+
+.fourth-block{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.modal{
+    background-color: #3382f6;
+    margin-block: 50px;
+    padding: 25px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    min-width: 200px;
+    flex-wrap: wrap;
+}
+
+#cta-heading{
+    font-size: 18px;
+    font-weight: 600;
+    color:#e5e7eb;
+}
+
+#cta-text{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+#cta-down{
+    background-color: #3382f6;
+    color: #f9faf8;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 2px solid #e5e7eb;
+    padding-inline: 20px;
+    padding-block: 8px;
+}
+
+.footer{
+    font-size:14px;
+    text-align: center;
+    background-color: #e5e7eb;
+    padding-block: 15px;
+}
