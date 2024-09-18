@@ -74,4 +74,36 @@ a{
 #image1{
     max-width: 300px;
     height: auto;
+    border-radius: 10px;
+}
+
+.second-block{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 25px;
+    gap: 32px;
+}
+
+#heading-2{
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.carousel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 48px;
+}
+
+.block{
+    max-width: 150px;
+    text-align: center;
+}
+
+.carousel-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;;
 }
