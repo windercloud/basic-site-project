@@ -3,4 +3,4 @@
 Он создавался мной ради практики, чтобы окончательно разобраться в структуре HTML и Flexbox
 
 Сайт состоит из 4 блоков, хедера и футера. Посмотреть его можно по ссылке:
-## [Страница GitHub Pages](https://windercloud.github.io/basic-site-project/)
+> [Страница GitHub Pages](https://windercloud.github.io/basic-site-project/)
