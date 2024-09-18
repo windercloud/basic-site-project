@@ -1,12 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-.header{
+body{
     font-family: Montserrat, sans-serif;
+    margin: 0px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
     height: 60px;
+    padding-inline: 50px;
 }
 
 .logo{
@@ -22,12 +37,41 @@
     padding: 5px;
 }
 
-ul{
-    list-style-type: none;
-    padding: 0px;
+.main-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    padding-inline: 50px;
+    background-color: #1f2937;
+    padding-block: 25px;
 }
 
-a{
-    text-decoration: none;
-    color: white;
+#heading-main{
+    font-size: 42px;
+    font-weight: 800;
+    color: #f9faf8;
+    line-height: 90%;
+}
+
+#text-main{
+    font-size: 18px;
+    color: #f9faf8;
+    padding-block: 12px;
+}
+
+#cta-main{
+    background-color: #3382f6;
+    color: #f9faf8;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 0px;
+    padding-inline: 20px;
+    padding-block: 5px;
+}
+
+#image1{
+    max-width: 300px;
+    height: auto;
 }
