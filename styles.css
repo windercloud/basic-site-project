@@ -44,7 +44,7 @@ a{
     gap: 100px;
     padding-inline: 50px;
     background-color: #1f2937;
-    padding-block: 25px;
+    padding-block: 50px;
 }
 
 #heading-main{
@@ -57,7 +57,8 @@ a{
 #text-main{
     font-size: 18px;
     color: #f9faf8;
-    padding-block: 12px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 #cta-main{
@@ -68,7 +69,7 @@ a{
     border-radius: 5px;
     border: 0px;
     padding-inline: 20px;
-    padding-block: 5px;
+    padding-block: 8px;
 }
 
 #image1{
@@ -80,19 +81,20 @@ a{
 .second-block{
     display:flex;
     flex-direction: column;
-    align-items: center;
-    padding-block: 25px;
+    padding-block: 50px;
     gap: 32px;
+    padding-inline: 50px;
 }
 
 #heading-2{
     font-size: 36px;
+    align-self: center;
     font-weight: 900;
 }
 
 .carousel{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 48px;
 }
@@ -106,4 +108,28 @@ a{
     width: 150px;
     height: 150px;
     border-radius: 10px;;
+}
+
+.third-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding-inline: 200px;
+    padding-block: 50px;
+}
+
+.quote{
+    font-size: 32px;
+    align-self: flex-start;
+    font-style: italic;
+    font-weight: lighter;
+    padding-bottom: 20px;
+}
+
+#hamlet{
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: 500;
+    padding-right: 25px;
 }
